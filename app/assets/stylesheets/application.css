@@ -14,12 +14,11 @@
  *= require_self
  */
 
+/* background-image: image-url('logo.png');  logo.png is just a name here */
+
 /* kelley added this 
 */
 
-h1 {color: blue;
-	/* background-image: image-url('logo.png');  logo.png is just a name here */
-
-}
+h1 {color: blue; }
 h2 {color: green;}
-h3 {color: grey;}
+h3 {color: gray;}
