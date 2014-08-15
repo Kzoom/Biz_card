@@ -38,6 +38,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 # 8/14/14 ksw...Added these lines per heroku deployment msgs; Trying to get heroku to use my .css file
 ruby '2.0.0'   
-#gem 'rails_12factor'
+gem 'rails_12factor'
 #gem 'rails_serve_static_assets'
 #gem 'rails_stdout_logging'
