@@ -42,6 +42,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswi]
 #ruby '2.0.0'   
 #gem 'rails_12factor'
 # 8/14/14 ksw...commented out these two. These four lines made push to heroku blow up. 
-gem 'rails_serve_static_assets'
+#gem 'rails_serve_static_assets'
 #gem 'rails_stdout_logging'
 
