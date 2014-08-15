@@ -39,9 +39,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswi]
 # 8/14/14 ksw...Added these lines per heroku deployment msgs; Trying to get heroku to use my .css file
 # after several blow-ups on deploy to heroku, only comment out rails_12factor, see what happens
 #ksw...commented out _static_assets and _logging, heroku deploy still blew up. Comment this out, uncomment them 
-ruby '2.0.0'   
+#ruby '2.0.0'   
 #gem 'rails_12factor'
 # 8/14/14 ksw...commented out these two. These four lines made push to heroku blow up. 
 gem 'rails_serve_static_assets'
-gem 'rails_stdout_logging'
+#gem 'rails_stdout_logging'
 
