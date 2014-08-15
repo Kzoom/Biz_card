@@ -37,8 +37,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswi]
 
 # 8/14/14 ksw...Added these lines per heroku deployment msgs; Trying to get heroku to use my .css file
-#ruby '2.0.0'   ksw...commented out _static_assets and _logging, heroku deploy still blew up. Comment this out, uncomment them 
-gem 'rails_12factor'
+# after several blow-ups on deploy to heroku, only comment out rails_12factor, see what happens
+ruby '2.0.0'   ksw...commented out _static_assets and _logging, heroku deploy still blew up. Comment this out, uncomment them 
+#gem 'rails_12factor'
 # 8/14/14 ksw...commented out these two. These four lines made push to heroku blow up. 
 gem 'rails_serve_static_assets'
 gem 'rails_stdout_logging'
