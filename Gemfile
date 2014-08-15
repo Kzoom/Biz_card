@@ -34,4 +34,11 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # gem 'debugger', group: [:development, :test]
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin]
+gem 'tzinfo-data', platforms: [:mingw, :mswi]
+
+# 8/14/14 ksw...Added these lines per heroku deployment msgs; Trying to get heroku to use my .css file
+ruby '2.0.0'
+gem 'rails_12factor'
+gem 'rails_serve_static_assets'
+gem 'rails_stdout_logging'
+
