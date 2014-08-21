@@ -21,6 +21,9 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
+# 8/14/14 ksw...added per Steven Hsieh
+gem 'slim-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -37,7 +40,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 # 8/14/14 ksw...Added these lines per heroku deployment msgs; Trying to get heroku to use my .css file
-ruby '2.0.0'   
+#ruby '2.0.0'   
 gem 'rails_12factor'
 #gem 'rails_serve_static_assets'
 #gem 'rails_stdout_logging'
